@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <title>Challenge 6</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheets.css">
+</head>
+
+<main>
+  <header>
+    <div class="logo"><img src="../imgs/maine-logo.png" /></div>
+    <div class="navbar">
+      <ul>
+        <li> <a href="#">About<a> </li>
+        <li> <a href="#">Portfolio<a> </li>
+        <li> <a href="#"><span>Blog</span><a> </li>
+        <li> <a href="#">Contact<a> </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="social">
+    <ul>
+      <li><a href="#"> <img src="../imgs/GitHub-Mark.png" alt="octocat"/> </a> </li>
+      <li><a href="#"> <img src="../imgs/linkedin.png" alt="linkedin"/> </a> </li>
+      <li><a href="#"> <img src="../imgs/twitter.png" alt="twitter"/> </a> </li>
+    </ul>
+  </div>
+
+  <section>
+    <div class="post1">
+      <h1>Finding the Right Position in CSS</h1>
+      <h3>Relative, Absolute, or Fixed?!</h3>
+      <h4>02/15/2105</h4>
+      <p>
+        Knowing the difference between relative, absolute, and fixed positioning is essential when getting your hands dirty with CSS in a project. Having a solid understanding of those concepts will save you a large amount of time; the time you would otherwise have spent on guessing and checking. So let’s get right into the nitty gritty details.
+        <br><br>
+        When an element is created the default positioning is called “static”. This is how the element is displayed without any positioning added to it. If we place a square in a rectangle, the static position would look as below.<br>
+        <img src="../imgs/static.png" />
+        <br>
+        When an element is set to “absolute”, it is positioned in relation to an element created before it that is NOT static. An image of this example is shown below. The rectangle in the image is also set to absolute, so in this case, our square is positioned in relation to the rectangle as we push it 20 pixels to the right. If the parent element IS static, then the square would look at the entire HTML document and position itself according to that.<br>
+        <img src="../imgs/absolute.png" /><br>
+
+        “Relative” positioning is quite simple. When you set our square to move to the right 10 pixels, it moves to the right 10 pixels from where it originally was. The main thing to notice is that an element which is relatively positioned moves a certain assigned number of pixels from where it was, NOT in reference to another element!<br>
+        <img src="../imgs/relative-tenpx.png" /><br>
+
+        Giving the square a “fixed” position simply freezes that image onto the screen. As you can see in the image below, I have scrolled down the length of the rectangle, yet the square remains intact, in the same exact spot. This is why we say the square is fixed in that position.<br>
+        <img src="../imgs/fixed.png" /><br>
+
+      </p>
+    </div>
+  </section>
+  <footer> Copyright &copy; 2015 Taniya Prabhakar </footer>
+</main>
+
