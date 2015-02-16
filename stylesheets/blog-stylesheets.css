@@ -1,7 +1,11 @@
 header {
   border: 2px solid;
   height: 60px;
-  background-color: #99CCCC;
+  background-color: #D0D0D0;
+}
+
+a:hover {
+    color: #FFF;
 }
 .logo img {
   width: 60px;
@@ -24,10 +28,8 @@ header {
 .navbar a{
   text-decoration: none;
 }
-span{
-  background-color: #CCFFCC;
-}
-section {
+
+#posting {
   margin-left: 150px;
   margin-right: 150px;
   margin-top: -200px;
@@ -36,7 +38,7 @@ section {
   /*padding-top: 10%;*/
   padding-left: 5%;
   padding-right: 5%;
-  margin-top: 5%;
+  margin-top: 25%;
   border: 2px solid;
 }
 
