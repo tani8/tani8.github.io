@@ -1,10 +1,17 @@
 *{
   font-family: 'Pontano Sans', sans-serif;
-  color: navy;
-}
+  color: 009999;
 
+}
+body{
+  background-image: url('../imgs/seamless_paper_texture.png');
+  background-repeat: repeat;
+}
+a:hover{
+  color:;
+}
 #navbar-top{ /*gray nav background*/
-  background-color: gray;
+  background-color: #D0D0D0;
   height: 90px;
 }
 
