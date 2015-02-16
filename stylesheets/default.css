@@ -16,6 +16,7 @@ a:hover{
 
 .logo a img { /*logo formatting*/
   width: 7.7%;
+  height: 7.7%;
   float: left;
   padding-left: 30px;
 }
