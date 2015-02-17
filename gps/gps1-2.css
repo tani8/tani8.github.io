@@ -1,0 +1,33 @@
+h1{
+  border: 1px solid navy;
+  height: 35px;
+  padding-top: 5px;
+  background-color: #F0F0F0;
+  color: navy;
+  text-align: center;
+}
+h3, h4{
+  text-align: center;
+}
+.all{
+  border: 3px solid navy;
+  padding: 20px;
+  padding-left: 50px;
+  font-family: 'Lato', sans-serif;
+  width: 900px;
+}
+.one, .two, .three{
+  background-color: #99FFFF;
+  display: inline-block;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  color: #989898;
+  width: 250px;
+}
+img{
+  height: 420px;
+  padding-bottom: 20px;
+  display: block;
+}
