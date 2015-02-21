@@ -118,3 +118,18 @@ footer {
   padding-bottom: 10px;
   text-align: center;
 }
+
+#array img{
+  display: inline;
+  height: 40%;
+  width: 20%;
+  padding-left: 290px;
+}
+
+#hash img{
+  display: inline;
+  height: 50%;
+  width: 40%;
+  padding-left: 220px;
+  padding-bottom: 15px;
+}
