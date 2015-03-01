@@ -134,3 +134,17 @@ footer {
   padding-left: 220px;
   padding-bottom: 15px;
 }
+
+#pinkgirls{ /*cult blog post 4*/
+  display: inline;
+  height: 60%;
+  width: 70%;
+  padding-left: 15%;
+}
+
+#nerdmovie{ /*cult blog post 4*/
+  display: inline;
+  height: 50%;
+  width: 35%;
+  padding-left: 30%;
+}
