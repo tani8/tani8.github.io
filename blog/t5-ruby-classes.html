@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Technical Blog 5</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheets.css">
+  <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+
+  <section id="navbar-top">
+    <div class="logo">
+      <a href="http://tani8.github.io/index.html">
+        <img src="../imgs/face.png" alt="personal logo" /></a>
+        <h1>Taniya Prabhakar</h1>
+    </div>
+
+    <nav><!--used for navigation-->
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="http://tani8.github.io/blog/index.html">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+  </section>
+
+  <div class="social">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/taniyaprabhakar"> <img src="../imgs/linkedin.png" alt="let's network!"/> </a> </li>
+      <li><a href="https://twitter.com/tani_yasss"><img src="../imgs/twitter.png" alt="follow me on twitter" /></a> </li>
+      <li><a href="https://github.com/tani8/"><img src="../imgs/GitHub-Mark.png" alt="view my projects" /></a> </li>
+    </ul>
+  </div>
+
+  <section id="post">
+    <h3> Thoughts & Opinions </h3>
+  </section>
+  <section id="posting">
+    <div class="post1">
+      <h1>Stay Classy</h1>
+      <h3>Lookup Maroon 5 Songs By Year</h3>
+      <h4>03/07/2015</h4>
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">class</span> <span style="color: #BB0066; font-weight: bold">Maroon5</span>
+
+   <span style="color: #008800; font-weight: bold">def</span> <span style="color: #0066BB; font-weight: bold">initialize</span>(year)
+     <span style="color: #3333BB">@year</span> <span style="color: #333333">=</span> year
+     <span style="color: #3333BB">@songs</span> <span style="color: #333333">=</span> {
+    <span style="color: #0000DD; font-weight: bold">2015</span> <span style="color: #333333">=&gt;</span> <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;To Be Determined&quot;</span><span style="color: #333333">]</span>,
+    <span style="color: #0000DD; font-weight: bold">2014</span> <span style="color: #333333">=&gt;</span> <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;Animals&quot;</span>, <span style="background-color: #fff0f0">&quot;Maps&quot;</span>, <span style="background-color: #fff0f0">&quot;My Heart Is Open&quot;</span><span style="color: #333333">]</span>,
+    <span style="color: #0000DD; font-weight: bold">2013</span> <span style="color: #333333">=&gt;</span> <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;No Valid Data Exists&quot;</span><span style="color: #333333">]</span>,
+    <span style="color: #0000DD; font-weight: bold">2012</span> <span style="color: #333333">=&gt;</span> <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;Beautiful Goodbye”, ”Chilly Winter (Demo)”, “Daylight”, “Doin&#39; Dirt”, “Fortune Teller&quot;</span>, <span style="background-color: #fff0f0">&quot;Ladykiller&quot;</span>, <span style="background-color: #fff0f0">&quot;Love Somebody&quot;</span>, <span style="background-color: #fff0f0">&quot;Lucky Strike&quot;</span>, <span style="background-color: #fff0f0">&quot;One More Night&quot;</span>, <span style="background-color: #fff0f0">&quot;Payphone&quot;</span>, <span style="background-color: #fff0f0">&quot;Sad&quot;</span>, <span style="background-color: #fff0f0">&quot;Take What You Want&quot;</span>, <span style="background-color: #fff0f0">&quot;The Man Who Never Lied&quot;</span>, <span style="background-color: #fff0f0">&quot;Tickets&quot;</span> <span style="background-color: #fff0f0">&quot;Wasted Years&quot;</span>, <span style="background-color: #fff0f0">&quot;Wipe Your Eyes&quot;</span><span style="color: #333333">]</span>,
+    <span style="color: #0000DD; font-weight: bold">2011</span> <span style="color: #333333">=&gt;</span> <span style="color: #333333">[</span><span style="background-color: #fff0f0">&quot;Is Anybody Out There&quot;</span>, <span style="background-color: #fff0f0">&quot;It Was Always You&quot;</span>, <span style="background-color: #fff0f0">&quot;Moves like Jagger&quot;</span><span style="color: #333333">]</span>
+    }
+   <span style="color: #008800; font-weight: bold">end</span>
+
+   <span style="color: #008800; font-weight: bold">def</span> <span style="color: #0066BB; font-weight: bold">print_match</span>
+     <span style="color: #3333BB">@songs</span><span style="color: #333333">.</span>each { <span style="color: #333333">|</span>k,v<span style="color: #333333">|</span>
+       <span style="color: #008800; font-weight: bold">if</span> k <span style="color: #333333">==</span> <span style="color: #3333BB">@year</span>
+         <span style="color: #007020">puts</span> <span style="background-color: #fff0f0">&quot;Maroon 5 released these songs in </span><span style="background-color: #eeeeee">#{</span><span style="color: #3333BB">@year</span><span style="background-color: #eeeeee">}</span><span style="background-color: #fff0f0">: &quot;</span>
+         <span style="color: #007020">puts</span> <span style="color: #3333BB">@songs</span><span style="color: #333333">[</span>k<span style="color: #333333">]</span>
+       <span style="color: #008800; font-weight: bold">else</span>
+           <span style="color: #007020">puts</span> <span style="background-color: #fff0f0">&quot;The entered year is not within the past five years.&quot;</span>
+       <span style="color: #008800; font-weight: bold">end</span>
+      }
+   <span style="color: #008800; font-weight: bold">end</span>
+<span style="color: #008800; font-weight: bold">end</span>
+
+adam <span style="color: #333333">=</span> <span style="color: #003366; font-weight: bold">Maroon5</span><span style="color: #333333">.</span>new(<span style="color: #0000DD; font-weight: bold">2011</span>)
+</span> adam<span style="color: #333333">.</span>print_match
+</pre></td></tr></table></div>
+
+      <p>
+        Classes in Ruby, or quite frankly any language, are essential for easily maintainable code. By having multiple methods accessible to different objects of a class, you save the time and effort of recreating them and eliminate excessive repetition. To demonstrate how to implement a class and why they are useful, we will be creating a class with methods that will print the names of Maroon 5 songs that came out in a user-entered year (between 2011 and 2015).
+      </p>
+      <p>
+        In the code above, I have created a class called <strong>Maroon5</strong>. Within this class there is a method called <strong>initialize</strong>, which is used to sort of "boot up" our class with necessary variable assignments. Since we want to be able to pass in a year when creating a new Class object, we give it a parameter - year. This makes sure that when we call the method and boot up, we have a year to print out the list of songs for.
+      </p>
+      <p>
+        Instance variables are used to create instances of a class. With <strong>"year"</strong> being an instance, we are able to use it within different class methods. This ensures that when you initiate Maroon5, it has to have a year, and each instance of Maroon5 will have its own <strong>@year</strong>.
+      </p>
+      <p>
+        If you look under the code block, an <strong>"adam"</strong> is being given life. Here, adam is an object of the Maroon5 class, which is taking in the year "2011" as its argument. This means that adam will print out the songs that Maroon 5 released in 2011 when invoking the print_match method.
+        <br><br>
+        This is the result of calling the function: <br><br>
+        <img src = "../imgs/maroon5.png">
+      </p>
+
+    </div>
+  </section>
+
+  <footer> &copy; 2015 Taniya Prabhakar </footer>
+
+</main>
+</html>
