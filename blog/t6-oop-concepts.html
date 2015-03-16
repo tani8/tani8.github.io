@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Technical Blog #6</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheets.css">
+  <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+
+  <section id="navbar-top">
+    <div class="logo">
+      <a href="http://tani8.github.io/index.html">
+        <img src="../imgs/face.png" alt="personal logo" /></a>
+        <h1>Taniya Prabhakar</h1>
+    </div>
+
+    <nav><!--used for navigation-->
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="http://tani8.github.io/blog/index.html">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+  </section>
+
+  <div class="social">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/taniyaprabhakar"> <img src="../imgs/linkedin.png" alt="let's network!"/> </a> </li>
+      <li><a href="https://twitter.com/tani_yasss"><img src="../imgs/twitter.png" alt="follow me on twitter" /></a> </li>
+      <li><a href="https://github.com/tani8/"><img src="../imgs/GitHub-Mark.png" alt="view my projects" /></a> </li>
+    </ul>
+  </div>
+
+  <section id="post">
+    <h3> Thoughts & Opinions </h3>
+  </section>
+  <section id="posting">
+    <div class="post1">
+      <h1>Classes vs. Modules</h1>
+      <h3>similarities and differences, please?!</h3>
+      <h4>03/14/2015</h4>
+
+      <p>
+        Classes and Modules can be confusing and seem overlapping when you first dive into Object-Oriented Programming. However, they each have their own special use cases and implementations that allow for more easily maintainable code, and aren't all that similar. Understood broadly, Classes are all about their objects, whereas Modules are obsessed with their functions.
+      </p>
+
+      <p>
+        Think of the Math library and its different types of functions you have access to when including that into your program. You can take calculate means and sines and use those functions anywhere, on any object, without regard to which Class it comes from - which sounds societally correct. This is exactly how a Module works. You define multiple methods and can call them on objects of different classes. All objects should have access to fundamental methods, it's only ethical.
+      </p>
+
+      <p>
+        Modules give Class objects more flexibility by giving them the power to easily call multiple functions without having to define them within their own classes. Instead of defining similar functions for distinct Classes, you can store them all in a Module and store them like a library. Classes, on the other hand, define methods and variables that are accessible to its object, once created. Each object represents the definitions in a Class and can call on methods from a Module to use on its contents.
+      </p>
+
+      <p> Here's a representation of how Modules and Classes are written: <br> <br>
+        <img src = "../imgs/class_mod.png"> <br><br>
+        The Week defined up top is a Module that holds the methods <strong>weeks_in_month</strong> and <strong>weeks_in_year</strong>, which both return exactly what you're expecting! Decade is a Class that uses these methods in its no_of_months method which is called on its object, d1, on the last line. Notice the <strong> include Week </strong> on the first line within Decade. This gives the class access to all the methods defined above in Week.
+        <br> <br>
+        This outputs: <br> <br>
+        <img src = "../imgs/class_mod_output.png">
+
+      </p>
+
+    </div>
+  </section>
+
+  <footer> &copy; 2015 Taniya Prabhakar </footer>
+
+</main>
+</html>
